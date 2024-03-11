@@ -38,7 +38,8 @@
 
 不同于以往的测评体系，SuperCLUE-RAG还采用了对比式问答模式。除无文档问答类任务以外，针对同一问题进行先后两次提问，第一次不提供任何外部文档信息，第二次人为提供预设文档，对比两次答案的差异，并依据对比下暴漏的具体问题对系统RAG应用能力进行评估。
 
-[图片]
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-RAG/blob/main/resources/img/rag.jpg"  width="100%" height="100%"></img>
+
 
 ### 2.2 评估方法与思路
 
@@ -62,6 +63,8 @@
 测评体系分为评分标准与任务方向。
 
 ### 评分标准
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-RAG/blob/main/resources/img/rag_full.jpg"  width="100%" height="100%"></img>
+
 
   #### 1. 答案规整度：
      
@@ -103,7 +106,7 @@
   对于问题中有未更新的错误信息的，应当指出错误信息，修改后再返回。（单文档问题）
   
   - 例如：针对“目前已知最大的星系是距离银河系的IC 1101，直径约为400万光年，对吗？”，应当根据最新的文档信息生成“不对，目前已知的最大星系是距离银河系约30亿光年的阿尔库俄纽斯星系，直径约为1630万光年”。
-  - 
+  
   #### 2. 信息整合能力：
   根据提供的多条文档内容，能够具有多文档的检索记忆能力，并且根据检索的内容进行多步推理与整合，最终给出精确、完整的答案。（多文档问题）
   
@@ -112,9 +115,10 @@
 ### 2.4 问题设置与赋分说明
 
 基于SuperCLUE-RAG测评体系的特殊性（对比式问答模式），全部题目基于RAG关键技术检测的四个任务方向设置问题，分为无文档问答、单文档问答、多文档问答三种形式，灵活采用评分标准进行赋分，进而得出多维评估结果。
-[图片]
 
-[图片]
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-RAG/blob/main/resources/img/rag_result.jpg"  width="100%" height="100%"></img>
+
 
 ## 3. 测评邀请
 
@@ -145,6 +149,9 @@
 邮件标题：SuperCLUE-RAG检索增强测评申请，发送到contact@superclue.ai
 
 请使用单位邮箱，邮件内容包括：单位信息、文生视频大模型简介、联系人和所属部门、联系方式
-[图片]
-[图片]
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-RAG/blob/main/resources/img/rag_group.png"  width="30%" height="30%"></img>
+
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-RAG/blob/main/resources/img/b_s.png"  width="30%" height="30%"></img>
+
 
