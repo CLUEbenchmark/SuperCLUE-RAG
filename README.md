@@ -1,7 +1,7 @@
 # SuperCLUE-RAG
 中文原生检索增强生成测评基准
 
-<a href='2024-04-15 更新：SuperCLUE-RAG检索增强生成基准发布，即首批测评结果公布'>https://mp.weixin.qq.com/s/EdoA5fcyzgTw3LarMMe00g</a>
+<a href='https://mp.weixin.qq.com/s/EdoA5fcyzgTw3LarMMe00g'>2024-04-15 更新：SuperCLUE-RAG检索增强生成基准发布，即首批测评结果公布</a>
 
 ## 1. 介绍
 
